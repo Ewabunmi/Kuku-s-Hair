@@ -51,7 +51,7 @@ const SignIn = () => {
                   </div>
                 </div>
                 {/* Right Col */}
-                <div className="text-left backdrop-blur-xl shadow-slate-300 shadow-2xl bg-[#FFF]  pl-10 pr-10 rounded-md  w-[450px] h-[670px] mx-auto">
+                <div className="text-left backdrop-blur-xl shadow-slate-300 shadow-2xl bg-[#FFF]  pl-10 pr-10 rounded-md h-[670px] mx-auto">
                   <div className="flex justify-center items-center mt-20">
                     <img src={Logo} style={{ height: "auto" }} className="" />
                   </div>
