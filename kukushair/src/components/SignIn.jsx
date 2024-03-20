@@ -82,7 +82,6 @@ const SignIn = () => {
                         </p>
                       )}
                     </div>
-
                     <div className="relative z-0 w-full mb-6 group text-sm font-Bold text-[#000]">
                       Password
                       <input
