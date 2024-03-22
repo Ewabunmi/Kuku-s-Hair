@@ -35,11 +35,11 @@ const SignIn = () => {
     <>
       <div>
         <div className="bg-cover bg-no-repeat bg-black bg-[url('/src/assets/images/sign-in.png')]">
-          <div className="py-40 px-2">
+          <div className="py-20 px-2">
             <div className="container mx-auto">
               <div className="grid lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 gap-y-4">
                 {/* Left Col */}
-                <div className="text-left items-center lg:p-24 md:p-18 sm:p-8 p-8 mt-20">
+                <div className="text-left items-center lg:p-24 md:p-18 sm:p-8 p-8 mt-36">
                   <div className="bg-black bg-opacity-50 rounded-lg">
                     <h3 className="font-Bold text-center lg:text-5xl md:text-4xl sm:text-4xl text-[#FFF] text-4xl mt-6">
                       Kuku's Hair
@@ -77,7 +77,7 @@ const SignIn = () => {
                         }`}
                       />
                       {errors.username && (
-                        <p className="text-red-500 text-sm">
+                        <p className="text-red-500 text-sm mt-1">
                           Username is required
                         </p>
                       )}
@@ -95,7 +95,7 @@ const SignIn = () => {
                         }`}
                       />
                       {errors.password && (
-                        <p className="text-red-500 text-sm">
+                        <p className="text-red-500 text-sm mt-1">
                           Password is required
                         </p>
                       )}
@@ -126,6 +126,9 @@ const SignIn = () => {
                     </button>
                   </form>
                 </div>
+              </div>
+              <div className="font-Regular flex justify-center items-center mt-20 text-[#FFFFFF] text-sm">
+                All rights reserved ...
               </div>
             </div>
           </div>
